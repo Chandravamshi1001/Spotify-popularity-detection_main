@@ -1,0 +1,14 @@
+spotify-popularity/
+├─ data/
+│  └─ tracks.csv                # (downloaded Kaggle dataset) OR use sample_generator.py
+├─ models/
+│  ├─ rf_model.joblib
+│  └─ scaler.joblib
+├─ src/
+│  ├─ train.py
+│  ├─ preprocess.py
+│  └─ utils.py
+├─ app.py                       # Streamlit app
+├─ sample_generator.py          # optional: generate small sample CSV if you don't have dataset
+├─ requirements.txt
+└─ README.md
